@@ -5,7 +5,7 @@ const app = express();
 
 // ==========================================
 // 👇 BOT CONFIG (Apna Token & Admin ID Dalna)
-const token = '8423981597:AAFa9PC1jMAhqAf_z1w59_vZkbRcaHz5oPc'; 
+const token = process.env.MY_API_KEY; 
 const adminId = '7096965198'; 
 // ==========================================
 
