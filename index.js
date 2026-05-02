@@ -6,7 +6,7 @@ const app = express();
 // ==========================================
 // 👇 BOT CONFIG (Apna Token & Admin ID Dalna)
 const token = process.env.MY_API_KEY; 
-const adminId = '7096965198'; 
+const adminId = '5966080889'; 
 // ==========================================
 
 const bot = new TelegramBot(token, {polling: true});
